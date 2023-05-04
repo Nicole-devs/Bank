@@ -9,6 +9,7 @@ The instructions below will walk you through the process of planning your app. W
 # Requirements
 
 ~ Have a well-written README file.
+
 ~ Fetch data from a local server running JSON DB server.
 
 # Pre-requisite Data
@@ -23,8 +24,11 @@ Test your server by visiting this route in the browser: http://localhost:3000/tr
 Once you have the plan in place for the application you want to build take the following steps:
 
 ~ Create a new project folder
+
 ~ Create a new GitHub repository (NB: ENSURE IT IS PRIVATE).
+
 ~ Add your TM as a contributor to the project. (This is only for grading purposes. We promise we won't steal your code)
+
 ~ Regularly commit to the repository.
 
 
