@@ -2,19 +2,22 @@
 
 table {
     position: absolute;
-    left: 20%;
-    top: 19%;
+    left: 2%;
+    right: 10%;
+    top: 18%;
     border-spacing: 0;
-    box-shadow: 0 2px 10px rgba(64, 64, 64, .7);
+    box-shadow: 0 2px 10px rgba(14, 13, 14, 0.7);
     border-radius: 8px 8px 0 0;
     overflow: hidden;
-    width: 65%;
+    width: 70%;
 
 }
 
 td,th {
     padding: 5px 10px;
     text-align: left;
+    border: 1px solid black;
+    
 }
 
 th {
@@ -29,7 +32,7 @@ th {
 
 tr {
     width: 100%;
-    background-color: #fafafa;
+    background-color: rgba(110, 13, 111, 0.54);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,8 +42,8 @@ tr:nth-child(even) {
 
 #filter{
     position: absolute;
-    top: 20%;
-    left: 2%;
+    top: 15%;
+    right: 10%;
     margin-top: 2.5%;
     margin-left: 13px;
     display: flex;
@@ -87,7 +90,7 @@ tr:nth-child(even) {
 .filter2 {
     margin-top: 2px;
     padding: 0px;
-    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .filter2 select{
@@ -101,7 +104,7 @@ tr:nth-child(even) {
     border-radius: 4px;
     border: 0.9px solid rgba(0, 0, 0, 0.568);
     background: rgba(110, 13, 111, 0.54);
-    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .filter2 button:hover {
@@ -112,11 +115,11 @@ tr:nth-child(even) {
 }
 #sort{
     position: absolute;
-    top: 20%;
-    right: 10%;
-    border-radius: 10px;
+    top: 30%;
+    right: 20%;
+    border-radius: 15px;
     border: 0.6px solid black;
-    width: 40px;
+    width: 80px;
     height: 40px;
     text-align: center;
 }

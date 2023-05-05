@@ -7,7 +7,7 @@ export default function Table(){
     const [filteredContent, setFilteredContent] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:3000/transactions')
+        fetch('http://localhost:4000/transactions')
         .then((response)=>response.json())
         .then((data) => {
             setOriginalContent(data);
@@ -115,7 +115,7 @@ export default function Table(){
             </div>
             <button onClick={() => setFilteredContent(sortByCategory(originalContent))} id='sort'>
                 <span class="material-symbols-outlined">
-                    sort_by_alpha
+                    sort A-Z
                 </span>
             </button>           
             <table id="table">
