@@ -54,6 +54,12 @@ tr:nth-child(even) {
     text-align: left;
 }
 
+
+input[type=text]:focus {
+    background-color: violet;
+  }
+
+
 .filter1{
     display: flex;
     border-radius: 10px;

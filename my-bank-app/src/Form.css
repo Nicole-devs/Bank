@@ -9,9 +9,9 @@
 }
 
 input[type=text]:focus {
-    border: 3px solid #555;
-}
-
+    background-color: violet;
+  }
+  
 
 #newBtn{
     position: absolute;
